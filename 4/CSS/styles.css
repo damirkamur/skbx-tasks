@@ -61,6 +61,11 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: #3f2aff;
+  padding-left: 30px;
+  background-color: #070217;
+  background-image: url("../img/download.png");
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 .navigation_link {
