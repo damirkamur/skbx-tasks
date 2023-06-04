@@ -58,10 +58,10 @@ body {
 }
 
 .download-link {
+  padding-left: 30px;
   font-weight: 700;
   font-size: 18px;
   color: #3f2aff;
-  padding-left: 30px;
   background-color: #070217;
   background-image: url("../img/download.png");
   background-repeat: no-repeat;
@@ -69,8 +69,8 @@ body {
 }
 
 .navigation_link {
-  border-bottom: 1px solid #3f2aff;
   font-size: 20px;
+  border-bottom: 1px solid #3f2aff;
   color: #3f2aff;
 }
 
@@ -99,7 +99,7 @@ body {
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
-  flood-color: #333;
+  color: #333;
 }
 
 .paragraph {
@@ -111,19 +111,19 @@ body {
 }
 
 .important-thought {
-  border-radius: 20px;
   padding: 50px 95px;
   width: 100%;
   font-size: 30px;
+  border-radius: 20px;
   color: white;
   background-color: #3f2aff;
 }
 
 .grey-blocks {
-  border-radius: 20px;
   padding: 30px;
-  background-color: #f3f3f3;
   margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: #f3f3f3;
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -133,8 +133,8 @@ body {
 }
 
 .grey-blocks .paragraph {
-  width: 692px;
   margin-bottom: 10px;
+  width: 692px;
 }
 
 .grey-block-content {
@@ -195,10 +195,10 @@ body {
 }
 
 .image-caption {
-  border: 1px solid #b6b6b6;
-  border-top: 0;
   padding: 19px 0 19px;
   font-weight: 400;
   font-size: 14px;
   text-align: center;
+  border: 1px solid #b6b6b6;
+  border-top: 0;
 }
