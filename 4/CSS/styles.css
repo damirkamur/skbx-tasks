@@ -1,24 +1,24 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 body {
-	font-family: 'font', sans-serif;
+  font-family: Arial, Verdana, sans-serif;
 }
 
 .main-content {
@@ -48,10 +48,25 @@ body {
   display: inline-block;
   padding: 24px 49px;
   margin: 0 25px 0 0;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
 }
 
 .main-links-child:last-child {
   margin: 0;
+}
+
+.download-link {
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
+}
+
+.navigation_link {
+  border-bottom: 1px solid #3f2aff;
+  font-size: 20px;
+  color: #3f2aff;
 }
 
 .container {
@@ -75,8 +90,28 @@ body {
   margin-bottom: 40px;
 }
 
+.title {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  flood-color: #333;
+}
+
 .paragraph {
   width: 872px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+.important-thought {
+  border-radius: 20px;
+  padding: 50px 95px;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  background-color: #3f2aff;
 }
 
 .grey-blocks {
@@ -84,6 +119,8 @@ body {
   padding: 30px;
   background-color: #f3f3f3;
   margin-bottom: 40px;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .grey-blocks:last-child {
@@ -95,8 +132,30 @@ body {
   margin-bottom: 10px;
 }
 
-.subtitle, .chapter {
+.grey-block-content {
+  background-image: url("../img/decorate-1.png");
+}
+
+.grey-block-result {
+  background-image: url("../img/decorate-2.png");
+}
+
+.subtitle,
+.chapter {
   margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
+}
+
+.chapter {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
 }
 
 .list {
@@ -111,6 +170,10 @@ body {
   margin: 0;
 }
 
+.list_item::marker {
+  color: #3f2aff;
+}
+
 .image {
   margin-bottom: 40px;
 }
@@ -123,4 +186,14 @@ body {
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
+  font-size: 0;
+}
+
+.image-caption {
+  border: 1px solid #b6b6b6;
+  border-top: 0;
+  padding: 19px 0 19px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
 }
