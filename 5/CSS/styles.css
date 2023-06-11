@@ -243,3 +243,73 @@ body {
   font-size: 60px;
   line-height: 69px;
 }
+
+.modules-cards {
+  margin: 0 0 50px;
+  padding: 0;
+  min-width: 1169px;
+  list-style-type: none;
+  font-size: 0;
+}
+
+.modules-card {
+  position: relative;
+  display: inline-block;
+  margin: 0 25px 25px 0;
+  padding-top: 205px;
+  min-width: 572px;
+  min-height: 505px;
+  font-size: 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.modules-card:nth-child(2n) {
+  margin: 0;
+}
+
+.modules-card-1 {
+  background-image: url("../img/modules-1.jpg");
+}
+
+.modules-card-2 {
+  background-image: url("../img/modules-2.jpg");
+}
+
+.modules-card-3 {
+  background-image: url("../img/modules-3.jpg");
+}
+
+.modules-card-4 {
+  background-image: url("../img/modules-4.jpg");
+}
+
+.modules-card-content {
+  padding: 25px;
+  padding-top: 0;
+}
+
+.modules-card-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #3F2AFF;
+}
+
+.modules-card-text-list {
+  line-height: 165%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.modules-card-number {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #EAEAEA;
+}
