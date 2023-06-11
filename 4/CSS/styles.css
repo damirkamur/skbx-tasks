@@ -126,6 +126,7 @@ body {
   background-color: #f3f3f3;
   background-repeat: no-repeat;
   background-position: right;
+  background-size: contain;
 }
 
 .grey-blocks:last-child {
