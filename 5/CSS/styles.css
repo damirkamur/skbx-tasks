@@ -203,3 +203,43 @@ body {
   border: 1px solid #b6b6b6;
   border-top: 0;
 }
+
+.modules-container {
+  margin: 0 auto;
+  max-width: 1169px;
+  font-family: Arial, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.modules-header {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: #3F2AFF;
+}
+
+.modules-header-logo {
+  width: 137px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.modules-header-back-btn {
+  display: block;
+  margin: 0 0 25px;
+  padding-left: 52px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 45px;
+  background-image: url("../img/back-arrow.svg");
+}
+
+.modules-header-page-name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+}
