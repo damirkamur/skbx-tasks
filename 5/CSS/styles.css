@@ -247,17 +247,17 @@ body {
 .modules-cards {
   margin: 0 0 50px;
   padding: 0;
-  min-width: 1169px;
   list-style-type: none;
   font-size: 0;
 }
 
 .modules-card {
-  position: relative;
   display: inline-block;
+  position: relative;
+  vertical-align: top;
   margin: 0 25px 25px 0;
   padding-top: 205px;
-  min-width: 572px;
+  width: 572px;
   min-height: 505px;
   font-size: 20px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
@@ -279,6 +279,7 @@ body {
 
 .modules-card-3 {
   background-image: url("../img/modules-3.jpg");
+  margin-bottom: 0;
 }
 
 .modules-card-4 {
@@ -312,4 +313,17 @@ body {
   font-size: 40px;
   line-height: 46px;
   color: #EAEAEA;
+}
+
+.modules-show-more-btn {
+  display: block;
+  padding: 24px 75px;
+  margin: 0 auto 50px;
+  border: 2px solid #3F2AFF;
+  color: #3F2AFF;
+  background-color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
 }
